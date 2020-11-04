@@ -1,18 +1,18 @@
 body {
     background: #1e1f29;
-    display: flex;
 }
 
 .grille {
-    position: relative;
+    position: absolute;
     display: flex;
+    width: 900px;
+    height: 500px;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 .item {
     width: calc(25% - 2rem);
-    min-width: 200px;
     margin-bottom: 2rem;
     border-radius: 50%;
     background-color: rgb(136, 13, 184);
@@ -29,3 +29,4 @@ body {
     border-radius: 50%;
     background: #fff2;
 }
+
