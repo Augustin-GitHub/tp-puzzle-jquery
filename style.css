@@ -4,6 +4,7 @@ body {
 }
 
 .grille {
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -22,7 +23,7 @@ body {
 }
 
 .vide {
-    min-width: 200px;
+    width: calc(25% - 2rem);
     margin-bottom: 2rem;
     border-radius: 50%;
     border-radius: 50%;
