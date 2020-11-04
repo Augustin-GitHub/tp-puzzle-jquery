@@ -3,19 +3,27 @@ body {
 }
 
 .grille {
+    margin-left: 500px;
+    margin-top: 150px;
     position: absolute;
     display: flex;
     width: 900px;
-    height: 500px;
+    height: 530px;
     flex-wrap: wrap;
     justify-content: space-around;
+    border: 4mm ridge rgba(170, 50, 220, .6);
+    padding:3px;
+    border-radius: 10px;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
 }
 
 .item {
     width: calc(25% - 2rem);
     margin-bottom: 2rem;
     border-radius: 50%;
-    background-color: rgb(136, 13, 184);
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
     font-size: 24px;
     text-align: center;
     padding: 2rem 0;
@@ -27,6 +35,6 @@ body {
     margin-bottom: 2rem;
     border-radius: 50%;
     border-radius: 50%;
-    background: #fff2;
+    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
