@@ -1,0 +1,30 @@
+body {
+    background: #1e1f29;
+    display: flex;
+}
+
+.grille {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    width: calc(25% - 2rem);
+    min-width: 200px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    background-color: rgb(136, 13, 184);
+    font-size: 24px;
+    text-align: center;
+    padding: 2rem 0;
+    color: #3c0457;
+}
+
+.vide {
+    min-width: 200px;
+    margin-bottom: 2rem;
+    border-radius: 50%;
+    border-radius: 50%;
+    background: #fff2;
+}
