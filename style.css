@@ -37,3 +37,48 @@ body {
     background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
 }
 
+.item1 {
+    background-image: url(1.jpg);
+}
+.item2 {
+    background-image: url(2.jpg);
+}
+.item3 {
+    background-image: url(3.jpg);
+}
+.item4 {
+    background-image: url(4.jpg);
+}
+.item5 {
+    background-image: url(5.jpg);
+}
+.item6 {
+    background-image: url(6.jpg);
+}
+.item7 {
+    background-image: url(7.jpg);
+}
+.item8 {
+    background-image: url(8.jpg);
+}
+.item9 {
+    background-image: url(9.jpg);
+}
+.item10 {
+    background-image: url(10.jpg);
+}
+.item11 {
+    background-image: url(11.jpg);
+}
+.item12 {
+    background-image: url(12.jpg);
+}
+.item13 {
+    background-image: url(13.jpg);
+}
+.item14 {
+    background-image: url(14.jpg);
+}
+.item15 {
+    background-image: url(15.jpg);
+}
