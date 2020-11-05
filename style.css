@@ -21,12 +21,13 @@ body {
 .item {
     width: calc(25% - 5px);
     margin-bottom: 5px;
-    background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
-    font-size: 24px;
     text-align: center;
     padding: 2rem 0;
     color: #3c0457;
     cursor: pointer;
+    object-fit:cover;
+    max-width: 100%;
+	height: auto;
 }
 
 .vide {
