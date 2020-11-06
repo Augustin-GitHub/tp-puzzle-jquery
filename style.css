@@ -20,6 +20,7 @@
     height: 98px;
     line-height: 98px;
     background-color: #2d3748;
+    background-image: url(Eliott.jpg);
     border: 1px solid #1a202c;
     background-size: 400px;
     color: #cbd5e0;
@@ -31,4 +32,5 @@
 
 .bloc-empty {
     background-color: transparent;
+    background-image: none;
 }
